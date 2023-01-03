@@ -21,9 +21,12 @@ nav{
 .menu a{
     color: black;
     text-decoration: none;
+    
+
 }
 .menu a:hover{
     color: rgb(241, 76, 10);
+   
 }
     
 .menu-centre{
@@ -32,11 +35,31 @@ nav{
     margin-left: 100px;
 
 }
+.menu-rightitems a h4, .menu-centreitems a h4{
+    transition: 0.5s;
+    font-weight: normal;
+}
+.menu-rightitems a h4:hover, .menu-centreitems a h4:hover{
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 2px;
+    transform: scale(1.2);
+}
 .menu-right{
     display: flex;
     gap: 60px;
+    
 }
-#get-started a{
+.menu-leftitems a img{
+    transition: 0.5s;
+}
+.menu-leftitems a img:hover{
+    
+    transform: translateX(50px);
+}
+#get-started a h4{
    background-color: #F16725;
    padding: 4px 5px 5px 5px; 
    color: white;
@@ -44,6 +67,7 @@ nav{
 }
 .landingpage-image img{
     width: 660px;
+    
 }
 .landingpage-left{
     width: 460px;
@@ -99,7 +123,12 @@ nav{
     padding: 30px 30px 30px 30px;
     border-radius: 10px;
     margin-top: 40px;
+    transition: 0.3s;
 
+}
+.article-cards-items:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0px 5px gray;
 }
 .article-cards-items h3{
     color: #F16725;
@@ -149,6 +178,7 @@ nav{
     width: 270px;
     text-align: center;
 }
+
 .second-article-card-items h3{
     padding: 10px 0px 10px 0px;
     color: #F16725;
@@ -182,6 +212,12 @@ nav{
     gap: 30px;
     justify-content: center;
     
+}
+.third-article-items a img{
+    transition: 1s;
+}
+.third-article-items a img:hover{
+    transform: scale(1.2);
 }
 .space-3{
     height: 100px;
@@ -328,6 +364,13 @@ h1{
     gap: 80px;
 
 }
+.apple-playstore a img{
+    transition: 0.5s;
+}
+.apple-playstore a img:hover{
+    transform: scale(1.15);
+}
+
 .space-4{
     height: 100px;
 }
@@ -375,9 +418,14 @@ h1{
 }
 .social-media i{
     color: #FF5555;
+
+}
+.social-media-handles a i{
+    transition: 0.2s;
 }
 .social-media-handles a i:hover{
     color: #F16725;
+    transform:scale(2);
 }
 .static-footer {
     display: flex;
