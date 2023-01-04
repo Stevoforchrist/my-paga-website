@@ -196,6 +196,7 @@ nav{
 .text-before-third-article h1{
     font-size: 44px;
     margin-bottom: 20px;
+    text-align: left;
     
 }
 .third-span{
@@ -442,10 +443,4 @@ h1{
 .static-footer a:hover{
     color: rgb(90, 90, 255);
 }
-
-@media  (max-width: 600px) {
-    
-    
-}
-
 
